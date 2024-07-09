@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 170px;
+  padding-right: 230px;
+  padding-top: 60px;
+  max-width: 100%;
+  padding-bottom: 30px;
+  color: #666666;
+}
+.emaildetails h1 {
+  padding-top: 105px;
+  display: flex;
+  justify-content: center;
+  color: #1e0e62;
+}
+.emaildetails h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  background-image: linear-gradient(to right, #13b0f5, #e70faa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.nav p {
+  font-size: 30px;
+  font-family: 'Wittgenstein', serif;
+  color: rgb(127, 181, 231);
+}
+.nav strong {
+  font-size: 45px;
+  font-family: 'Ga Maamli', sans-serif;
+  color: rgb(68, 145, 221);
+}
+
+.leftnav {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.leftnav a {
+  text-decoration: none;
+  color: #666666;
+}
+.nav .leftnav a :hover {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #018c0f;
+}
+
+.rightnav {
+  padding-top: 5px;
+  display: flex;
+  gap: 13px;
+}
+.rightnav img {
+  width: 30px;
+  max-width: 100%;
+}
+.menubar {
+  display: none;
+}
+.downlogo {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 180px;
+  padding-bottom: 10px;
+}
+.downlogo p {
+  font-size: 30px;
+  font-family: 'Wittgenstein', serif;
+  color: rgb(127, 181, 231);
+}
+.downlogo strong {
+  font-size: 45px;
+  font-family: 'Ga Maamli', sans-serif;
+  color: rgb(68, 145, 221);
+}
+.downnav span {
+  color: #13b0f5;
+}
+
+.left_nav {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.right_nav {
+  padding-top: 5px;
+  display: flex;
+  gap: 13px;
+}
+.right_nav img {
+  width: 30px;
+  max-width: 100%;
+}
+.thenav {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.thenav a {
+  text-decoration: none;
+  color: #666666;
+}
+.downnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.downnav p {
+  margin-top: 18px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1266px) {
+  .wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .menubar {
+    display: flex;
+  }
+  .leftnav {
+    display: none;
+  }
+  .rightnav {
+    display: none;
+  }
+}

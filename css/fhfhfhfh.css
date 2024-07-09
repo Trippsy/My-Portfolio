@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.nav p {
+  font-size: 30px;
+  font-family: 'Wittgenstein', serif;
+  color: rgb(127, 181, 231);
+}
+.nav strong {
+  font-size: 45px;
+  font-family: 'Ga Maamli', sans-serif;
+  color: rgb(68, 145, 221);
+}
+
+.leftnav {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+.leftnav a {
+  text-decoration: none;
+  color: #666666;
+}
+.nav .leftnav a :hover {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #018c0f;
+}
+
+.rightnav {
+  padding-top: 5px;
+  display: flex;
+  gap: 13px;
+}
+.rightnav img {
+  width: 30px;
+  max-width: 100%;
+}
+.menubar {
+  display: none;
+}

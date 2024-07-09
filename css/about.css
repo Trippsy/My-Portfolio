@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 170px;
+  padding-right: 230px;
+  padding-top: 60px;
+  max-width: 100%;
+  padding-bottom: 30px;
+  color: #666666;
+}
+.main h1 {
+  font-size: 40px;
+  color: #42446e;
+}
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.nav p {
+  font-size: 30px;
+  font-family: 'Wittgenstein', serif;
+  color: rgb(127, 181, 231);
+}
+.nav strong {
+  font-size: 45px;
+  font-family: 'Ga Maamli', sans-serif;
+  color: rgb(68, 145, 221);
+}
+
+.leftnav {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+  height: 80px;
+}
+.leftnav a {
+  text-decoration: none;
+  color: #666666;
+}
+.leftnav a :hover {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #018c0f;
+}
+
+.rightnav {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 35px;
+}
+.rightnav img {
+  width: 30px;
+  max-width: 100%;
+}
+.menubar {
+  display: none;
+}
+.abtme {
+  padding-top: 40px;
+}
+.abtme p {
+  padding-top: 25px;
+}
+.workex {
+  padding-top: 25px;
+}
+
+.overallflex p {
+  font-size: 23px;
+}
+.leftflex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  color: #018c0f;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  background-color: #d7ffe0;
+  border-radius: 12px;
+  border: none;
+  height: 24px;
+  width: 90px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.first_iconflex {
+  display: flex;
+  align-items: center;
+}
+.second_iconflex {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.top_flex {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.downflex {
+  display: flex;
+  gap: 20px;
+}
+.overridecode {
+  margin-left: 27px;
+}
+.movealittle {
+  padding-left: 133px;
+}
+.flexdate {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.flexdate input {
+  border: none;
+}
+.eduwrapper h1 {
+  padding-top: 50px;
+}
+.edutopflex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+.eduflex {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+/* MEDIA QUERY */
+@media only screen and (max-width: 1294px) {
+  .movealittle {
+    padding-left: 35px;
+  }
+  .menubar {
+    display: flex;
+  }
+  .leftnav {
+    display: none;
+  }
+  .rightnav {
+    display: none;
+  }
+}
